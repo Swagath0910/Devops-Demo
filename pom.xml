@@ -15,12 +15,12 @@
     <!--Nexus Deployment-->
 <distributionManagement>
   <repository>
-    <id>Nexus</id>
+    <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://localhost:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
-    <id>Nexus</id>
+    <id>nexus</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://localhost:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
